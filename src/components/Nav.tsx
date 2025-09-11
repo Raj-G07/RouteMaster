@@ -68,7 +68,7 @@ export function Nav({
           <h1 className="lg:flex hidden w-[40%] text-2xl pl-1">
             Pathfinding Visualizer
           </h1>
-          <div className="flex sm:items-end items-center justify-start sm:justify-between sm:flex-row flex-col sm:space-y-0 space-y-3 sm:py-0 py-4 sm:space-x-4">
+          <div className="flex sm:items-end items-center justify-start sm:justify-between sm:flex-row flex-col sm:space-y-0 space-y-3 sm:py-0 py-4 sm:space-x-4T">
             <Select
             label="Maze"
             value={maze}
@@ -103,3 +103,4 @@ export function Nav({
         </div>
     )
 }
+

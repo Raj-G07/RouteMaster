@@ -1,5 +1,3 @@
-
-
 import { useContext } from "react"
 import { SpeedContext } from "../context/SpeedContext";
 
